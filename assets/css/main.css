@@ -3086,7 +3086,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 4em 5em 2em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3221,7 +3221,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		/* background-color: #f7f7f7; */
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3305,7 +3305,8 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgba(247, 247, 247, 0.75);
+			backdrop-filter: saturate(180%) blur(15px);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3782,4 +3783,56 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
+		}
+
+		.round_header_img{
+			border-radius: 50%;
+			max-height: 150px;
+			max-width: 150px;
+		}
+
+		kbd{
+			font-family: Consolas, "Lucida Console", monospace;
+			display: inline-block;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			padding: 0px 4px;
+			box-shadow: 1px 1px 1px #777;
+			margin: 2px;
+			font-size: small;
+			vertical-align: text-bottom;
+			background: #eee;
+			font-weight: 500;
+			color: #555;
+			/* cursor: pointer; */
+			font-variant: small-caps;
+			font-weight: 600;
+			/* letter-spacing: 0.5px; */
+			letter-spacing: 1px;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		.artc_list{
+			list-style: none;
+		}
+
+		.rot{
+			animation: rot_f 5s infinite linear;
+			/* transform: none; */
+		}
+		@keyframes rot_f{
+			0%{
+				transform: rotate(0deg);
+			}
+			/* 50%{
+				transform: rotate(180deg);
+			} */
+			100%{
+				transform: rotate(360deg);
+			}
 		}
