@@ -4063,3 +4063,34 @@ kbd {
 	border: #ccc solid 1px;
 
 }
+
+
+.hover_tag:hover .pop_tag {
+	display: block;
+}
+
+
+.pop_tag {
+	position: absolute;
+	display: none;
+	left: calc(-75px + 50%);
+	animation: sh 0.5s;
+	background: rgba(247, 247, 247, 0.75);
+	font-weight: 1000;
+	color: #09f;
+	border-radius: 15px;
+	padding: 0 15px;
+
+	text-align: center;
+	width: 150px;
+}
+
+@keyframes sh {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
