@@ -3836,3 +3836,8 @@ input, select, textarea {
 				transform: rotate(360deg);
 			}
 		}
+
+		.content_frame{
+			width: 100%;
+			/* height: fit-content; */
+		}
