@@ -26,3 +26,23 @@ git push origin master#push到Github
 ```
 
 然后Github刷新下应该就有了
+
+## 将本地已有的代码关联并上传到远程Git
+
+本地代码所在的文件夹要做一些初始化工作
+
+```powershell
+git init
+git add .
+git commit
+```
+
+这样创建了一个本地仓储
+
+然后push到远程
+
+```powershell
+git remote add origin https://github.com/xxx/xxx.git #关联到远程
+git push -u origin master #push
+```
+
