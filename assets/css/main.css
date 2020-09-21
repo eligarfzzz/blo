@@ -4074,6 +4074,7 @@ kbd {
 	position: absolute;
 	display: none;
 	left: calc(-75px + 50%);
+	margin-top: 5px;
 	animation: sh 0.5s;
 	background: rgba(247, 247, 247, 0.75);
 	font-weight: 1000;
