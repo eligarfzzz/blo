@@ -13,7 +13,7 @@ const webData = {
     {
       title: "Git 基本常用命令",
       brief: "从自己的Github下载并更新代码的常用命令行收录",
-      href: "/articles/first_try_git_arl_frm.html",
+      href: "./articles/first_try_git_arl_frm.html",
     },
   ],
 };
