@@ -15,5 +15,10 @@ const webData = {
       brief: "从自己的Github下载并更新代码的常用命令行收录",
       href: "./articles/first_try_git_arl_frm.html",
     },
+    {
+      title: "node、electron调用C++、打包",
+      brief: "node、electron调用C++、打包、ffi等",
+      href: "./articles/electron_start_arl_frm.html",
+    },
   ],
 };
