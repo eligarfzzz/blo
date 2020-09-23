@@ -3983,7 +3983,7 @@ kbd {
 }
 
 .rot {
-	animation: rot_f 5s infinite linear;
+	animation: rot_f 10s infinite linear;
 	/* transform: none; */
 }
 
