@@ -14,11 +14,13 @@ const webData = {
       title: "Git 基本常用命令",
       brief: "从自己的Github下载并更新代码的常用命令行收录",
       href: "./articles/first_try_git_arl_frm.html",
+      dataTime: "Sep.20 2020",
     },
     {
       title: "node、electron调用C++、打包",
       brief: "node、electron调用C++、打包、ffi等",
       href: "./articles/electron_start_arl_frm.html",
+      dataTime: "Sep.19 2020",
     },
   ],
 };

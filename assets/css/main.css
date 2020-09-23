@@ -4064,6 +4064,10 @@ kbd {
 
 }
 
+.time_footer {
+	float: right;
+	font-size: smaller;
+}
 
 .hover_tag:hover .pop_tag {
 	display: block;
