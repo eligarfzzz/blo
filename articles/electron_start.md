@@ -127,7 +127,19 @@ npm run build
 
 实际`html`使用的`js`、`css`等资源，会随着开发目录中所有文件打进`resources/app`中，无需放进`extraResources`，一般是一些`dll`文件，需要相对`.exe`文件加载，这时放进`resources/app/libs`目录是无法读取的。而`to`的`./libs`会放到`resources/libs`中，依然读不到，如果要放到相对exe文件目录下，应该用`../libs`，这样才能读到。
 
-另外`electron-builder` 打出的包默认就是`asar`压缩，如何制定不压缩打包还需研究。
+## asar
+
+另外`electron-builder` 打出的包默认就是`asar`压缩。是否使用`asar`压缩可以这样写。
+
+```js
+"build":{
+     "asar": true
+}
+```
+
+
+
+
 
 [源码在这，可直接clone使用](https://github.com/eligarfzzz/electron_lite)
 
