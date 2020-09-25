@@ -23,4 +23,22 @@ const webData = {
       dataTime: "Sep.19 2020",
     },
   ],
+  repos: [
+    {
+      title: "electron_lite",
+      brief:
+        "基于electron-quick-start，加入必要依赖和修改，方便作为调取C++接口的electron引用模板",
+      href: "https://github.com/eligarfzzz/electron_lite",
+    },
+    {
+      title: "html_part",
+      brief: "一些html ui组件，用于构建electron引用",
+      href: "https://github.com/eligarfzzz/html_part",
+    },
+    {
+      title: "ColorConsole",
+      brief: "C++控制台输出彩色字符。对win32API的简单封装，方便使用",
+      href: "https://github.com/eligarfzzz/ColorConsole",
+    },
+  ],
 };
