@@ -109,7 +109,7 @@ package.json的scripts中添加
     }
   }
 ```
-将dependencies和devDependencies中不必要的项目移除，然后运行
+然后运行
 ```shell
 npm run build
 ```
@@ -119,13 +119,15 @@ npm run build
 
 "extraResources": [
     {
-        from:"./xxx",
-        to:"./xxx"
+        from:"./libs",
+        to:"../libs"
     }
 ]
 ```
 
+实际`html`使用的`js`、`css`等资源，会随着开发目录中所有文件打进`resources/app`中，无需放进`extraResources`，一般是一些`dll`文件，需要相对`.exe`文件加载，这时放进`resources/app/libs`目录是无法读取的。而`to`的`./libs`会放到`resources/libs`中，依然读不到，如果要放到相对exe文件目录下，应该用`../libs`，这样才能读到。
 
+另外`electron-builder` 打出的包默认就是`asar`压缩，如何制定不压缩打包还需研究。
 
 [源码在这，可直接clone使用](https://github.com/eligarfzzz/electron_lite)
 
