@@ -40,5 +40,11 @@ const webData = {
       brief: "C++控制台输出彩色字符。对win32API的简单封装，方便使用",
       href: "https://github.com/eligarfzzz/ColorConsole",
     },
+    {
+      title: "HK_Control",
+      brief:
+        "海康威视相机SDk的简单封装。海康SDK采用C接口，使用并不方便，封装后简化了代码",
+      href: "https://github.com/eligarfzzz/HK_Control",
+    },
   ],
 };
