@@ -1,6 +1,6 @@
 const webData = {
   site_articles_author: "Luw Beow",
-  site_title: "Luw Beow's site",
+  site_title: "Eligarf's site",
 
   /**
    * 写完之后的blog添加步骤
