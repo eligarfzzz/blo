@@ -5,9 +5,8 @@ const webData = {
   /**
    * 写完之后的blog添加步骤
    * - markdown导出到html
-   * - 建一个新的html作为iframe容器，如复制first_try_git_arl_frm.html，尽量以markdown的文件名 + arl_frm结尾
-   * - 修改iframe的src
    * - 在json数组中添加
+   * - 路径会在js中拼接
    */
   articles: [
     {
