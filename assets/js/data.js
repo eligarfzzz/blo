@@ -13,19 +13,19 @@ const webData = {
     {
       title: "electron html页面引入javascript文件探索",
       brief: "既能用script标签引入，又能require引入，两种方法间的不同",
-      href: "./articles/electron_html_javascrip_file_export_arl_frm.html",
+      href: "electron_html_javascrip_file_export.html",
       dataTime: "Sep.28 2020",
     },
     {
       title: "Git 基本常用命令",
       brief: "从自己的Github下载并更新代码的常用命令行收录",
-      href: "./articles/first_try_git_arl_frm.html",
+      href: "first_try_git.html",
       dataTime: "Sep.20 2020",
     },
     {
       title: "node、electron调用C++、打包",
       brief: "node、electron调用C++、打包、ffi等",
-      href: "./articles/electron_start_arl_frm.html",
+      href: "electron_start.html",
       dataTime: "Sep.19 2020",
     },
   ],

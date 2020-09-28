@@ -58,15 +58,14 @@
 							<h2>文章</h2>
 						</header>
 						<p>
-
 							以下是所有文章
-
 						</p>
 						<ul class="articles_list" id="art_list">
 							<!-- <li>zzz</li>
 												<li>zz</li> -->
 							<li class="item_frame" v-for="art in arts">
-								<a class="art_item" v-bind:href="art.href" v-bind:title="art.brief">
+								<a class="art_item" v-bind:href="'./articles/arl_frm.html?art=' + art.href"
+									v-bind:title="art.brief">
 									<h3>{{art.title}}</h3>
 									<p>{{art.brief}}</p>
 									<i class="time_footer">{{art.dataTime}}</i>
