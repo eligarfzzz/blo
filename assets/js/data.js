@@ -11,6 +11,12 @@ const webData = {
    */
   articles: [
     {
+      title: "electron html页面引入javascript文件探索",
+      brief: "既能用script标签引入，又能require引入，两种方法间的不同",
+      href: "./articles/electron_html_javascrip_file_export_arl_frm.html",
+      dataTime: "Sep.28 2020",
+    },
+    {
       title: "Git 基本常用命令",
       brief: "从自己的Github下载并更新代码的常用命令行收录",
       href: "./articles/first_try_git_arl_frm.html",
