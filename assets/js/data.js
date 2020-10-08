@@ -57,5 +57,11 @@ const webData = {
         "海康威视相机SDk的简单封装。海康SDK采用C接口，使用并不方便，封装后简化了代码",
       href: "https://github.com/eligarfzzz/HK_Control",
     },
+    {
+      title: "Windows-Socket",
+      brief:
+        "基于Win32 Socket的简单封装，简化了Socket的使用，实现ServerSocekt ClientSocket",
+      href: "https://github.com/eligarfzzz/Windows-Socket",
+    },
   ],
 };
