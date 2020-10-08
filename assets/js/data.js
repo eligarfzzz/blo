@@ -10,8 +10,14 @@ const webData = {
    */
   articles: [
     {
+      title: "JavaScript异步与C#对比，Promise的作用",
+      brief: "JavaScript async await Promise, C# async await Task<>",
+      href: "javascript_promise.html",
+      dataTime: "Oct.8 2020",
+    },
+    {
       title: "electron html页面引入javascript文件探索",
-      brief: "既能用script标签引入，又能require引入，两种方法间的不同",
+      brief: "script标签引入，和require引入，两种方法间的不同",
       href: "electron_html_javascrip_file_export.html",
       dataTime: "Sep.28 2020",
     },
