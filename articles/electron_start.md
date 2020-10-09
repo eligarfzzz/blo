@@ -38,7 +38,16 @@ function TEXT(text) {
 let out='';
 console.log(lib.test(TEXT("nifoa"), 1, 0,out));
 ```
+**如果dll有依赖其他dll，还需要在主进程中添加环境路径**
+
+```javascript
+process.env.PATH = `${process.env.PATH}${path.delimiter}${pathToAdd}`;
+```
+
+
+
 ## 回调
+
 js
 
 ```javascript

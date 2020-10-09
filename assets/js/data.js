@@ -31,7 +31,7 @@ const webData = {
       title: "node、electron调用C++、打包",
       brief: "node、electron调用C++、打包、ffi等",
       href: "electron_start.html",
-      dataTime: "Sep.19 2020",
+      dataTime: "Sep.19 2020, Oct.9 2020更新",
     },
   ],
   repos: [
