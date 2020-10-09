@@ -38,7 +38,9 @@ function TEXT(text) {
 let out='';
 console.log(lib.test(TEXT("nifoa"), 1, 0,out));
 ```
-**如果dll有依赖其他dll，还需要在主进程中添加环境路径**
+如果报错`Dynamic Linking Error: Win32 error 126`
+
+因为dll有依赖其他dll，还需要在主进程中添加环境路径**
 
 ```javascript
 process.env.PATH = `${process.env.PATH}${path.delimiter}${pathToAdd}`;
@@ -85,6 +87,12 @@ debug_f("something");
 如果遇到abi node_module_version不匹配的情况，请检查以下几项
 - 如果再electron中调用，需使用ffi-napi，并注意node、electron、ffi-napi版本
 - ***node -v12，electron@6.0.10 ，ffi-napi@2.4.5是一个可用的组合***
+- node -v12，electron@9.0.5，fffi-napi@3.0.1未测试，据说可用
+
+报`Dynamic Linking Error: Win32 error 126`错误
+
+- 检查dll路径、函数名、32 64位是否匹配
+- 是否有依赖其他Dll，如果有，添加环境路径，上面说过
 
 
 ## 打包
