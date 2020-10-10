@@ -4,7 +4,7 @@
 
 加`const`是为了安全，毕竟没人希望拷贝的时候把源数据给改了吧。当然不加也可以，不加也是拷贝构造/赋值构造。
 
-加引用是为了防止拷贝构造/赋值构造无限调用。传参时也会调用拷贝构造，不加引用就会无限递归。
+加引用是为了防止拷贝构造无限调用。传参时也会调用拷贝构造，不加引用就会无限递归。
 
 ```c++
 class CTest
@@ -12,12 +12,12 @@ class CTest
 public:
 	int i = 9;
 
-	 CTest& operator=(const CTest& ct)
+	 CTest& operator=(const CTest& ct)// 这里加了const
 	{
 		i = ct.i;
 		return *this;
 	}
-	CTest(CTest& ct)
+	CTest(CTest& ct)// 这里没加const
 	{
 		i = ct.i;
 	}
