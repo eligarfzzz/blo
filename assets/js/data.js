@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "C++拷贝构造和赋值构造探索",
+      brief: "C++拷贝构造和赋值构造参数、返回值等",
+      href: "cpp_operator.html",
+      dataTime: "Oct.10 2020",
+    },
+    {
       title: "JavaScript异步与C#对比，Promise的作用",
       brief: "JavaScript async await Promise, C# async await Task<>",
       href: "javascript_promise.html",
