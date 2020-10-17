@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "QT 多线程与信号槽传递对象",
+      brief: "QT 多线程下使用信号槽传递对象、线程开启方法",
+      href: "qt_thread_connect.html",
+      dataTime: "Oct.15 2020",
+    },
+    {
       title: "C++拷贝构造和赋值构造探索",
       brief: "C++拷贝构造和赋值构造参数、返回值等",
       href: "cpp_operator_1011.html",
