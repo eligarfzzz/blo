@@ -48,7 +48,7 @@
 				<li>
 					<span class="searcher">
 						<span class="fa fa-search input_search_icon"></span>
-						<input id="search_box" class="search_input">
+						<input type="text" id="search_box" class="search_input" placeholder="搜索文章">
 						<ul id="search_result" class="search_result_list">
 							<li v-for="result in searchResult"><a v-bind:href="'./articles/arl_frm.html?art=' + result.href">{{result.title}}</a></li>
 						</ul>

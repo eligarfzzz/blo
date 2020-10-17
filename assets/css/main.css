@@ -4117,6 +4117,10 @@ kbd {
 	font-size: 15px;
 	color: #000 !important;
 }
+.searcher .search_input::placeholder{
+	color: #666 !important;
+	font-size: 15px !important;
+}
 .searcher .search_input:hover{
 	box-shadow: #09f 0px 0px 10px -2px;
 }
