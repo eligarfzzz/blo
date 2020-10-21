@@ -49,12 +49,13 @@
 					<span class="searcher">
 						<span class="fa fa-search input_search_icon"></span>
 						<input type="text" id="search_box" class="search_input" placeholder="搜索文章">
-						<ul id="search_result" class="search_result_list">
-							<li v-for="result in searchResult"><a v-bind:href="'./articles/arl_frm.html?art=' + result.href">{{result.title}}</a></li>
+						<ul id="search_result" class="search_result_list ">
+							<li v-for="result in searchResult"><a
+									v-bind:href="'./articles/arl_frm.html?art=' + result.href">{{result.title}}</a></li>
 						</ul>
 
 					</span>
-					
+
 				</li>
 			</ul>
 		</nav>
@@ -73,8 +74,6 @@
 							以下是所有文章
 						</p>
 						<ul class="articles_list" id="art_list">
-							<!-- <li>zzz</li>
-												<li>zz</li> -->
 							<li class="item_frame" v-for="art in arts">
 								<a class="art_item" v-bind:href="'./articles/arl_frm.html?art=' + art.href"
 									v-bind:title="art.brief">
@@ -224,32 +223,32 @@
 	<script src="assets/js/vue_run.js"></script>
 	<script src="assets/js/searcher.js"></script>
 	<script>
-		let searchResult=[];
-		const searchVueData=new Vue({
+		let searchResult = [];
+		const searchVueData = new Vue({
 			el: "#search_result",
-  			data: {
-  			  searchResult: searchResult
-  			}
-		}); 
+			data: {
+				searchResult: searchResult
+			}
+		});
 		new Searcher()
-		.addSearchDataSource(webData.articles)
-		.setSearchTextDomElement(document.getElementById('search_box'))
-		.setSearchEndCallBack((list)=>{
-			
-			searchVueData.searchResult = [];
-			
-			console.log(searchResult.length);
-			list.forEach(element => {
-				searchVueData.searchResult.push(element);
-			});
-		})
-		.setComperaCallBack((input,dataSouce)=>{
-			return (dataSouce.title.toLowerCase().indexOf(input.toLowerCase()) > -1)||
-			(dataSouce.brief.toLowerCase().indexOf(input.toLowerCase()) > -1)||
-			(dataSouce.dataTime.toLowerCase().indexOf(input.toLowerCase()) > -1);
-			
-		})
-		.start();
+			.addSearchDataSource(webData.articles)
+			.setSearchTextDomElement(document.getElementById('search_box'))
+			.setSearchEndCallBack((list) => {
+
+				searchVueData.searchResult = [];
+
+				console.log(searchResult.length);
+				list.forEach(element => {
+					searchVueData.searchResult.push(element);
+				});
+			})
+			.setComperaCallBack((input, dataSouce) => {
+				return (dataSouce.title.toLowerCase().indexOf(input.toLowerCase()) > -1) ||
+					(dataSouce.brief.toLowerCase().indexOf(input.toLowerCase()) > -1) ||
+					(dataSouce.dataTime.toLowerCase().indexOf(input.toLowerCase()) > -1);
+
+			})
+			.start();
 	</script>
 </body>
 
