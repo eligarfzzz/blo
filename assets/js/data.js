@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "C#事件示例",
+      brief: "C#事件。再发点牢骚",
+      href: "csevent.html",
+      dataTime: "Oct.21 2020",
+    },
+    {
       title: "QT 多线程与信号槽传递对象",
       brief: "QT 多线程下使用信号槽传递对象、线程开启方法",
       href: "qt_thread_connect.html",
