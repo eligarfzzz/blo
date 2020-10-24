@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "ASP.NET Core MVC中的路由总结",
+      brief: "ASP.NET Core MVC中的路由总结",
+      href: "aspnetcoremvcroute.html",
+      dataTime: "Oct.24 2020",
+    },
+    {
       title: "C#事件示例",
       brief: "C#事件。再发点牢骚",
       href: "csevent.html",
