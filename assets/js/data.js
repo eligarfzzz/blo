@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "ASP.NET Core MVC中的 依赖注入方法",
+      brief: "ASP.NET Core MVC中的 依赖注入方法",
+      href: "aspnetcoremvcdependencynjection.html",
+      dataTime: "Oct.29 2020",
+    },
+    {
       title: "ASP.NET Core MVC中的路由总结",
       brief: "ASP.NET Core MVC中的路由总结",
       href: "aspnetcoremvcroute.html",
