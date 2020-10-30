@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "Vue中的属性绑定",
+      brief: "Vue中的属性绑定，外加一些简单的组件，及注意事项",
+      href: "vuebindandcomponent.html",
+      dataTime: "Oct.30 2020",
+    },
+    {
       title: "ASP.NET Core MVC中的 依赖注入方法",
       brief: "ASP.NET Core MVC中的 依赖注入方法",
       href: "aspnetcoremvcdependencynjection.html",
