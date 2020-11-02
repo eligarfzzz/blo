@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "React初体验",
+      brief: "React初体验入门",
+      href: "react_frist_try.html",
+      dataTime: "Nov.2 2020",
+    },
+    {
       title: "Vue中的属性绑定",
       brief: "Vue中的属性绑定，外加一些简单的组件，及注意事项",
       href: "vuebindandcomponent.html",
