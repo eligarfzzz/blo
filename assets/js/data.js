@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "浏览器跨域访问的正确解决方式",
+      brief: "R浏览器跨域访问的正确解决方式",
+      href: "cors.html",
+      dataTime: "Nov.2 2020",
+    },
+    {
       title: "React初体验",
       brief: "React初体验入门",
       href: "react_frist_try.html",
