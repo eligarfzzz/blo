@@ -23,12 +23,14 @@ ReactDOM.render(
 
 ```tsx
  <List data={
-            listData:{
+        {
+             listData:{
                 name:xxx,
                 id:0
-                // ...
+              // ...
             }
-        }></List>
+        }
+   }></List>
 ```
 
 修改时`props.data.listData=xxx`这样既可
