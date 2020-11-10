@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "C++ std::filesystem体验",
+      brief: "C++ std::filesystem常用类和库函数，需要C++ 17",
+      href: "cpp_stdfilesystem.html",
+      dataTime: "Nov.10 2020",
+    },
+    {
       title: "React遇到的坑",
       brief: "React遇到的天坑",
       href: "react_problem.html",
@@ -47,7 +53,7 @@ const webData = {
     },
     {
       title: "C#事件示例",
-      brief: "C#事件。再发点牢骚",
+      brief: "C#事件。",
       href: "csevent.html",
       dataTime: "Oct.21 2020",
     },

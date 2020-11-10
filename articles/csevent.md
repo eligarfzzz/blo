@@ -125,5 +125,5 @@
 
 说多了，一加班就牢骚多
 
-<h1 title="吐槽比正文多，为了吐槽和写正文" style="font-family: 'Kunstler Script','Palace Script MT','Brush Script MT';font-size: 4em;font-weight: bolder;">The End</h1>
+<h1 title="😔" style="font-family: 'Kunstler Script','Palace Script MT','Brush Script MT';font-size: 4em;font-weight: bolder;">The End</h1>
 
