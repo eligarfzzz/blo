@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "javascript 原型链",
+      brief: "javascript 原型链",
+      href: "javascriptproto.html",
+      dataTime: "Nov.26 2020",
+    },
+    {
       title: "跨域cookie",
       brief: "跨域cookie",
       href: "cocrcookie.html",
