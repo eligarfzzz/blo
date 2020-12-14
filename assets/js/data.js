@@ -16,6 +16,12 @@ const webData = {
       dataTime: "Dec.14 2020",
     },
     {
+      title: "再看Js 和Ts模块",
+      brief: "再看Js 和Ts模块",
+      href: "jstsmd.html",
+      dataTime: "Nov.27 2020",
+    },
+    {
       title: "javascript 原型链",
       brief: "javascript 原型链",
       href: "javascriptproto.html",
