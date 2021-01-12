@@ -55,7 +55,7 @@ package.json
 
 ```
 
-安装了 3.5.1（最新版）
+安装了 2.2.4
 
 若两文件冲突，package.json 低于package-lock.json，会根据package.json 安装
 
