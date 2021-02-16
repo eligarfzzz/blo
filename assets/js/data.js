@@ -10,6 +10,12 @@ const webData = {
    */
   articles: [
     {
+      title: "WPF资源使用",
+      brief: "开始学一下WPF",
+      href: "wpfresource.html",
+      dataTime: "Feb.16 2021",
+    },
+    {
       title: "package.json package-lock.json 版本关系探索",
       brief: "没营养的一更，快一个月了，必须更一下",
       href: "packagelockjson.html",
