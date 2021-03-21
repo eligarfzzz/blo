@@ -9,6 +9,13 @@ const webData = {
    * - 路径会在js中拼接
    */
   articles: [
+    
+    {
+      title: "qtqmake",
+      brief: "qt qmake 工程配置",
+      href: "qtqmake.html",
+      dataTime: "March.21 2021",
+    },
     {
       title: "WPF资源使用",
       brief: "开始学一下WPF",
