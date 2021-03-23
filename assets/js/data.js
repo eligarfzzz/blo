@@ -9,7 +9,12 @@ const webData = {
    * - 路径会在js中拼接
    */
   articles: [
-    
+    {
+      title: "qt ubuntu cmake",
+      brief: "ubuntu写qt必备",
+      href: "ubuntucmakeqt.html",
+      dataTime: "March.21 2021",
+    },
     {
       title: "qtqmake",
       brief: "qt qmake 工程配置",
