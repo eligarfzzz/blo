@@ -53,7 +53,18 @@ CMake Error at CMakeLists.txt:14 (find_package):
 
 ```cmake
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "/home/lb/Qt5.13.2/5.13.2/gcc_64/lib/cmake")
+
 ```
+
+或在环境变量中设置Qt5_DIR
+
+```shell
+export Qt5_DIR=/home/xxx
+```
+
+
+
+
 
 这样应该就能完成编译
 
