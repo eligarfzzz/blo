@@ -68,4 +68,22 @@ export Qt5_DIR=/home/xxx
 
 这样应该就能完成编译
 
+## 编译出的可执行文件修改mime
+
+默认的编译出的文件mime类型为`shared library (application/x-sharedlib)` ，需要终端中运行，如果想修改为可双击运行的可执行文件，`executable (application/x-executable)`，
+
+在cmake中添加以下变量
+
+```cmake
+set(CMAKE_EXE_LINKER_FLAGS  ${CMAKE_EXE_LINKER_FLAGS} "-no-pie ")
+```
+
+或qmake
+
+```makefile
+QMAKE_LFLAGS += -no-pie
+```
+
+
+
 zzzz
