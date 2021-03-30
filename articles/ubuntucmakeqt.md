@@ -84,6 +84,11 @@ set(CMAKE_EXE_LINKER_FLAGS  ${CMAKE_EXE_LINKER_FLAGS} "-no-pie ")
 QMAKE_LFLAGS += -no-pie
 ```
 
+## 编辑器无法自动加载ui生成的include
+ui文件会自动生成`ui_xxx.h `,如果编辑器没有自动添加包含目录，可以在cmake中手动配置
+```cmake
+target_include_directories(projnamexxx PRIVATE "${CMAKE_BINARY_DIR}/Test_autogen/include_Debug")
+```
 
 
 zzzz
